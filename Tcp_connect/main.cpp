@@ -15,7 +15,7 @@ using namespace std;
 #pragma comment(lib,"ws2_32.lib")     //链接库文件
 #pragma comment(lib,"iphlpapi.lib")     //链接库文件
 
-//字节数组转换为十六进制字符串，噢耶阿卡尽快噶
+//字节数组转换为十六进制字符串
 std::string bytesToHexString(const unsigned char* bytes, size_t length) {
 	std::stringstream ss;
 	ss << std::hex << std::setfill('0');
